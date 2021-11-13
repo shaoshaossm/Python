@@ -1,0 +1,6 @@
+file_read = open("README", encoding='utf-8')
+file_write = open("README[duplicate]", "w",encoding='utf-8')
+text = file_read.read()
+file_write.write(text)
+file_read.close()
+file_write.close()
