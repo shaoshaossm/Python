@@ -1,5 +1,4 @@
 # 58二手房
-# 爬取三国演义中所有章节和文章内容
 import requests
 from lxml import html
 
