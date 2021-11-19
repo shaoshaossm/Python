@@ -1,4 +1,4 @@
-# 验证码
+# 验证码模拟登陆
 import requests
 from lxml import html
 
