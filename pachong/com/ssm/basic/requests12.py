@@ -1,4 +1,4 @@
-# 验证码
+# 验证码模拟登陆
 import requests
 from lxml import html
 
@@ -29,8 +29,8 @@ if __name__ == "__main__":
     login_url = "https://so.gushiwen.cn/user/login.aspx?"
     data = {
         'from': 'http://so.gushiwen.cn/user/collect.aspx',
-        'email': '19858165529',
-        'pwd': 'hxl158120',
+        'email': '',
+        'pwd': '',
         'code': code_img,
         'denglu': '登录',
     }

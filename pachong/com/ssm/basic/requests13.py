@@ -12,8 +12,8 @@ if __name__ == "__main__":
     tree = html.etree.HTML(page_text)
     login_url = "https://work.shopeebao1688.com/index/Login/doLogin?username=13668567749&password=yangbiao2021"
     data = {
-        'username': '13668567749',
-        'password': 'yangbiao2021'
+        'username': '',
+        'password': ''
     }
     response = session.post(url=login_url, headers=headers, data=data)
     login_page_text = response.text
