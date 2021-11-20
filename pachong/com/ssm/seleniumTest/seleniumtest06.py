@@ -60,3 +60,4 @@ if __name__ == "__main__":
     Login_btn = bro.find_element_by_class_name('login-form-button')
     Login_btn.click()
     time.sleep(50)
+    bro.quit()
