@@ -40,7 +40,7 @@ if __name__ == "__main__":
     frame = i.crop(rangle)
     frame.save(code_img_name)
     # 解析验证码
-    chaojiying = chaojiying.Chaojiying_Client('19858165529', 'hxl158120', '925040')  # 用户中心>>软件ID 生成一个替换 96001
+    chaojiying = chaojiying.Chaojiying_Client('', '', '925040')  # 用户中心>>软件ID 生成一个替换 96001
     im = open('./code.png', 'rb').read()  # 本地图片文件路径 来替换 a.jpg 有时WIN系统须要//
     code = chaojiying.PostPic(im, 1004)
     code_img = code['pic_str']
